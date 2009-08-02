@@ -1,0 +1,19 @@
+---
+name: DesignPattern-DispatchTable
+version: 0.01
+author:
+  - 'Luis Motta Campos <lmc@cpan.org>'
+abstract: Implementation of a reusable versatile dispatch table.
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0
+provides:
+  DesignPattern::DispatchTable:
+    file: lib/DesignPattern/DispatchTable.pm
+    version: 0.01
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
